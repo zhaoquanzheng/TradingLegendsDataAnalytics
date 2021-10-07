@@ -29,8 +29,20 @@ then for all possible market buildings, select the one which has lowest Upgrade_
 
 Most of the time, the two formulas point to the same market building, but what should be chosen when they don't? The answer is simple! The 2nd formula considers affordability so if you have been afk for awhile and amassed tons of silver use the 1st formula. Otherwise where silver is limiting your purchase choices, go by the 2nd formula!
 
-//TODO Upload the xlsx file or create google sheet link?
+//Link to TL_Q1.xlsx
 
 ## Question 2) Maximising Retainer Earnings
+Retainers are like special staff which have names and abilities. Trading Legends is not a single player game and there are many competitions (mainly Trade Wars) where Retainers of one player fight another player with strength based on earnings. Initially, when I was trying to analyse Retainer Earnings I typed up all the different attribute stats but they kept changing very fast in the game and it was not beneficial to keep up with all the bonus modifiers. I figured out that there is a Retainer Basic Earning which depends on Retainer Level and Aptitude and not affected by modifiers, while the actual total Retainer Earning has additive and multiplicative modifiers applied onto the Basic Earning.
+When I checked myself to see if these theories held, I was a bit worried because my predicted Earnings were thousands of dollars(or silvers) away from the actual Earnings. 
+I noticed that there were differences in Earning between the rarity of the Retainer (SSR-A) and tried to work out empirically the earning per aptitude per level for each grade of the Retainer. 
+A: 6.39
+S: 6.95
+SR: 7.38
+SSR: 7.46
+(with a total sample size of 25)
+Thankfully when I did an Error Margin check, these errors were 0-1% off from the actual Earning and so I can attribute the error to rounding in Game (I don't get to see the exact actual Earning).
 
+[TL_Q2.xlsx](https://github.com/zhaoquanzheng/TradingLegendsDataAnalytics/files/7298265/TL_Q2.xlsx)
 
+## Question 3) Estate
+At Level 25, Estate is unlocked. Estate complicates everything as it can give bonuses to the Market or Retainers.
