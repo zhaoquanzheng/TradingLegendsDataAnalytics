@@ -44,5 +44,9 @@ Thankfully when I did an Error Margin check, these errors were 0-1% off from the
 
 [TL_Q2.xlsx](https://github.com/zhaoquanzheng/TradingLegendsDataAnalytics/files/7298265/TL_Q2.xlsx)
 
-## Question 3) Estate
+## Question 3) Exploring Estate
 At Level 25, Estate is unlocked. Estate complicates everything as it can give bonuses to the Market or Retainers.
+Currently level 32, with unlocked crops: Radish, Carrot, Potato, Bamboo Shoot, Onion, Lettuce, Pumpkin; animals: Chicken, Dog, Pig, Sheep, Ox, Cat
+All crops and animals have base production rate of 59/min + 1/level
+There are various modifiers for each different animal, and they have different upgrade costs and different tech costs. Modifiers will be ignored and I am attempting to find a relationship in the increase of the costs.
+Intuitively, levelling up everything at a constant rate (cheapest first) is most efficient.
